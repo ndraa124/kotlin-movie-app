@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.dynamic-feature'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: '../dependency.gradle'
+
+android {
+    namespace 'com.id22.favorite'
+    compileSdk 33
+
+    defaultConfig {
+        minSdk 23
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+    implementation project(":app")
+    implementation project(":core")
+}

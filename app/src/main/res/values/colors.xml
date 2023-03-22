@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EB9410</color>
+    <color name="colorPrimaryVariant">#4ea721</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorSecondaryVariant">#C87E0E</color>
+
+    <color name="colorSuccess">#20BF6B</color>
+    <color name="colorSuccessVariant">#17A158</color>
+    <color name="colorDanger">#FE2020</color>
+    <color name="colorDangerVariant">#DC1D1D</color>
+    <color name="colorWarning">#FDB21B</color>
+    <color name="colorWarningVariant">#D19214</color>
+    <color name="colorInfo">#2980B9</color>
+    <color name="colorInfoVariant">#175E8C</color>
+    <color name="colorDisable">#DDDDDD</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorBlackTransparent">#99292929</color>
+    <color name="colorActive">#B4FFD8</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecondary">#FFFFFF</color>
+    <color name="colorTextDisable">#8A8A8A</color>
+    <color name="colorTextHint">#555555</color>
+    <color name="colorTextMore">#2980B9</color>
+    <color name="colorTextError">#FE2121</color>
+    <color name="colorToggle">#DFDFDF</color>
+
+    <!-- Input Text -->
+    <color name="colorInputTextBackground">#DDDDDD</color>
+
+    <!-- Background -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackgroundDivider">#000000</color>>
+    <color name="colorBackgroundShimmer">#DDDDDD</color>
+    <color name="colorBackgroundView">#83DDDDDD</color>
+    <color name="colorBackgroundSearch">#5EDDDDDD</color>
+</resources>

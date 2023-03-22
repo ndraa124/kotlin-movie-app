@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/error_message"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextDisable"
+        android:textSize="@dimen/font_14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_try"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_try"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/nunito_bold"
+        android:paddingHorizontal="@dimen/padding_default"
+        android:paddingVertical="8dp"
+        android:text="@string/error_try"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

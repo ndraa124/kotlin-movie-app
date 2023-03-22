@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="title_favorite">Favorite Movies</string>
+    <string name="img_description">Image Description</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_detail">Detail Movie</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_about">About</string>
+    <string name="menu_now_playing">Now Playing</string>
+    <string name="menu_popular">Popular</string>
+    <string name="menu_top_rated">Top Rated</string>
+    <string name="menu_search">Search Movie</string>
+
+    <string name="home_title">Movie Series</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_now_playing">Now Playing</string>
+    <string name="home_popular">Popular</string>
+    <string name="home_top_rated">Top Rated</string>
+    <string name="home_overview">Overviews</string>
+    <string name="home_recommendation">Recommendations</string>
+    <string name="home_search">Search Movies</string>
+    <string name="home_discover">Discover By Genres</string>
+    <string name="home_trailer">Trailer Movies</string>
+    <string name="home_reviews">Reviews</string>
+
+    <string name="search_hint">Search in here…</string>
+
+    <string name="empty_now_playing">Now playing movie is Empty</string>
+    <string name="empty_popular">Popular movie is Empty</string>
+    <string name="empty_top_rated">Top rated movie is Empty</string>
+    <string name="empty_recommendations">Recommendation movie is Empty</string>
+    <string name="empty_trailer">Trailer movies is Empty</string>
+    <string name="empty_favorite">Favorite movie is Empty</string>
+    <string name="empty_reviews">Reviews is Empty</string>
+    <string name="empty_movie">Movie not found</string>
+
+    <string name="error_message">There\'s something wrong. Please try again</string>
+    <string name="error_try">Try again</string>
+</resources>

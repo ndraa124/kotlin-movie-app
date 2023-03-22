@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding -->
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_14dp">14dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_18dp">18dp</dimen>
+    <dimen name="padding_24dp">24dp</dimen>
+    <dimen name="padding_32dp">32dp</dimen>
+    <dimen name="padding_64dp">64dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_zero">0.0dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_64dp">64dp</dimen>
+    <dimen name="margin_72dp">72dp</dimen>
+
+    <!-- Corner -->
+    <dimen name="corner_default">4dp</dimen>
+    <dimen name="corner_8dp">8dp</dimen>
+    <dimen name="corner_16dp">16dp</dimen>
+    <dimen name="corner_24dp">24dp</dimen>
+    <dimen name="corner_32dp">32dp</dimen>
+
+    <!-- Font -->
+    <dimen name="font_default">14sp</dimen>
+    <dimen name="font_6sp">6sp</dimen>
+    <dimen name="font_8sp">8sp</dimen>
+    <dimen name="font_9sp">9sp</dimen>
+    <dimen name="font_10sp">10sp</dimen>
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_24sp">24sp</dimen>
+    <dimen name="font_28sp">28sp</dimen>
+    <dimen name="font_32sp">32sp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_default">4dp</dimen>
+    <dimen name="elevation_8dp">8dp</dimen>
+    <dimen name="elevation_16dp">16dp</dimen>
+
+    <!-- Icon -->
+    <dimen name="icon_default">24dp</dimen>
+
+    <!-- Button Height -->
+    <dimen name="button_default">50dp</dimen>
+    <dimen name="button_small">24dp</dimen>
+    <dimen name="button_medium">40dp</dimen>
+</resources>
