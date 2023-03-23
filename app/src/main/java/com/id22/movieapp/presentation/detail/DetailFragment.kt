@@ -90,7 +90,13 @@ class DetailFragment : BaseFragment<FragmentDetailBinding>() {
         }
 
         bind.content.error.btnTry.setOnClickListener {
+            bind.content.error.clError.visibility = View.GONE
+            bind.content.clDetail.visibility = View.VISIBLE
+
             getDetailMovie()
+            getTrailers()
+            getAllRecommendationsMovie()
+            getReviews()
         }
 
         bind.fab.setOnClickListener {
