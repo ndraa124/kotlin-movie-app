@@ -22,6 +22,7 @@
     <string name="home_discover">Discover By Genres</string>
     <string name="home_trailer">Trailer Movies</string>
     <string name="home_reviews">Reviews</string>
+    <string name="home_reviews_date">Written by %1$s on %2$s</string>
 
     <string name="search_hint">Search in here…</string>
 

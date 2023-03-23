@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.id22.core.BuildConfig
 import com.id22.core.domain.model.Reviews
+import com.id22.core.utils.getDateFormat
+import com.id22.movieapp.R
 import com.id22.movieapp.databinding.ItemReviewsBinding
 
 class ReviewsAdapter : PagingDataAdapter<Reviews, ReviewsAdapter.RecyclerViewHolder>(DiffCallback) {
@@ -62,6 +64,11 @@ class ReviewsAdapter : PagingDataAdapter<Reviews, ReviewsAdapter.RecyclerViewHol
 
                 tvRating.text = "$ratingDigit"
                 tvTitle.text = data.author
+                tvSubtitle.text = itemView.resources.getString(
+                    R.string.home_reviews_date,
+                    data.author,
+                    getDateFormat(data.createdAt)
+                )
                 tvDescription.text = HtmlCompat.fromHtml(data.content, FROM_HTML_MODE_COMPACT)
             }
         }
