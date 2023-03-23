@@ -20,4 +20,5 @@ Movie App has built using kotlin with implement clean architecture and dependenc
 3. Clean Code & Maintainable
 4. Using Chucker Library to Trace Request/Response API
 5. Implement SOLID Principle & Modularization
+6. MVVM Design Pattern
 ```
